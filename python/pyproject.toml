@@ -1,0 +1,29 @@
+[project]
+name = "apiverve-websitetechstackdetector"
+version = "1.2.2"
+authors = [
+  { name="APIVerve", email="hello@apiverve.com" },
+]
+description = "Website Tech Stack Detector identifies the technologies a website runs on, such as its CMS, ecommerce platform, JavaScript framework, analytics, CDN and hosting, with categories and a confidence score for each. Paid plans add detected versions, CPE identifiers and a rendered mode that runs the page's JavaScript."
+keywords = ["tech stack detector api", "website technology lookup", "detect website technologies", "what cms is this site using", "builtwith api alternative"]
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "requests>=2.25.0"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: English",
+]
+
+[project.urls]
+Homepage = "https://apiverve.com/marketplace/techstackdetector?utm_source=pypi&utm_medium=referral&utm_content=homepage"
+Documentation = "https://docs.apiverve.com/ref/techstackdetector?utm_source=pypi&utm_medium=referral&utm_content=docs"
+Repository = "https://github.com/apiverve/techstackdetector-api"
+Twitter = "https://twitter.com/apivervehq"
